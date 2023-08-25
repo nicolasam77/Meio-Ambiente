@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header img{ 
+    
+    padding: 1.5em;
+    width: 10.5%;
+    height: 10%;
+    background-color: #3a3939;
+  }
+  .header img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .header img{
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .logo-eco img{
+    
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    left: 12%;
+    top: 1em;
+  }
+  
+  .icon1-rodape img{ position: sticky;
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 19.5em;
+    top: 4em;
+  }
+  
+  .icon2-rodape img{
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 37.8em;
+    top: 4em;
+  }
+  
+  .icon3-rodape img{
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 62.5em;
+    top: 4em;
+  }
+  
+  .icon4-rodape img{
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 86.5em;
+    top: 4em;
+  }
+  
+  .icon5-rodape img{
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    left: 107.5em;
+    top: 4em;
+  }
+  
+  .icon-home{
+    position: absolute;
+    width: 2%;
+    height: 1%;
+    left: 36%;
+    top: 2em;
+  }
+  
+   @font-face {
+    font-family: 'Abel-Regular';
+    src: url('fonts/Abel-Regular.ttf') format('truetype');
+    font-weight: normal;}
+  
+  .topnav a { 
+    font-family: 'Abel-regular', Times, serif;
+    font-size: 23px;
+    position: relative;
+    left: 150px;
+    top: -2.3em;
+    color: #ffffff;
+    text-align: center;
+    padding: 1% 2.5%;
+    text-decoration: none;
+  }
+  
+  .banner-gif {
+    text-align: center;
+   padding: 15px;
+  }  
+  
+  .cabecalho {
+    margin: 0;
+    background-color: #3a3939;
+    width: 100%;
+  }
+  
+  .topnav {display: flex;
+  justify-content: space-evenly; 
+  
+    background-color: #3a3939;
+  }
+  .nargas img{
+    position: absolute;
+    left: 35em;
+  }
+  .sus h1{
+    
+  position: absolute;
+  width:0%;
+  height: 0%;
+  left: 72px;
+  top: 5em;
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 1000%;
+  font-size: 5em;
+  line-height: 58px;
+  
+  color: #ffffff;
+  
+  
+  }
+  .topnav a:hover{
+    color: #c5c3c3;
+    background-color: #3f3e3e9f;
+  }
+  
+  @font-face {
+    font-family: 'Greatvibes';
+    src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+    font-weight: normal;}
+  
+  .descrição p{
+    font-family: 'Abel-regular', Times, serif;
+     font-size: 2em;
+     margin: 4;
+    
+  }
+  .morvan{
+    
+  position: absolute;
+  width: 197px;
+  height: 44px;
+  left: 41px;
+  top: 84px;
+  
+  font-family:'Abel-regular', Times, serif; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #FFFFFF;
+  }
+
+  .container {
+    position: absolute;
+    top: 35em;
+    left: 50em;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 5px;
+    background-color: rgba(0, 110, 255, 0.041);
+  }
+  
+  .header2 {
+    flex: 1;
+    width: 95%;
+    border: 2px dashed royalblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .header svg {
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    height: 100px;
+  }
+  
+  .header p {
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    text-align: center;
+    color: black;
+  }
+  
+  .footer {
+    background-color: rgba(0, 110, 255, 0.075);
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: black;
+    border: none;
+  }
+  
+  .footer svg {
+    height: 130%;
+    fill: royalblue;
+    background-color: rgba(70, 66, 66, 0.103);
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.205);
+  }
+  
+  .footer p {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #file {
+    display: none;
+  }
+
+  .video {
+    position: absolute;
+    top: 110%;
+    left: 10%;
+  }
